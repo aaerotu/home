@@ -8,44 +8,33 @@ body{
   background-color: #614F89;
   color: #FEA4B9;
 }
-header{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  z-index: 1000;
-  padding: 30px 100px;
-}
-header .logo{
+.conta{
   position: relative;
-  color: #FFF;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+}
+.sec{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: start;
+}
+.conte{
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  max-width: 600px;
+}
+.title{
   font-weight: 700;
   font-size: 2em;
-  text-decoration: none;
 }
-header ul{
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-header ul li{
-  position: relative;
-  list-style: none;
-  margin-left: 40px;
-}
-header ul li a{
-  color: #FFF;
-  text-decoration: none;
-  /* https://youtu.be/js0fkkzmlv0?t=190 - falto "section.banner" en .html // Mar. 14 de mar 10:41 */
-}
-taq{
-  d
-}
-taq{
-  d
+.title{
+  font-weight: 500;
+  font-size: 2em;
+  margin-top: 10px;
 }
 taq{
   d
