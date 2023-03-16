@@ -18,7 +18,7 @@ header {
   left: 0;
   right: 0;
   height: 50px;
-  background-color: #f2f2f2;
+  background-color: #1E2D3C;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -57,10 +57,5 @@ h2 {
 }
 
 p {
-  font-style: italic;
   font-size: 1.8em;
-}
-
-.snap:nth-of-type(odd) {
-  background-color: #f2f2f2;
 }
